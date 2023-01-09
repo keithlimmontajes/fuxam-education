@@ -6,7 +6,7 @@ import { Input, Button, Row, Col } from "antd";
 interface PropTypes {
   note: any;
   notes: Array<any>;
-  isEdit: Boolean;
+  isEdit: boolean;
   setNotes: React.Dispatch<React.SetStateAction<any>>;
   setIsEdit: React.Dispatch<React.SetStateAction<boolean>>;
   setIsAdd: React.Dispatch<React.SetStateAction<boolean>>;
